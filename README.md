@@ -9,47 +9,80 @@ https://cursos.alura.com.br/user/fernando-junior0/fullCertificate/02fef27296edda
 
 
  `Formação: Iniciante em Programação`
+ 
 JavaScript: Programando na linguagem da web (de 12/02/2020 a 19/02/2020) 20hrs
+
 HTML5 e CSS3 parte 1: A primeira página da Web (de 10/02/2020 a 11/02/2020) 8hrs
+
 HTML5 e CSS3 parte 2: Posicionamento, listas e navegação (de 11/02/2020 a 12/02/2020) 8hrs
 
+
  `Formação: Node.JS`
+ 
 HTTP: Entendendo a web por baixo dos panos (de 21/01/2020 a 04/02/2020) 14hrs
 
  `Formação: React JS`
+ 
 JavaScript avançado I: ES6, orientação a objetos e padrões de projetos (de 19/02/2020 a 09/03/2020) 12hrs
 
 `Formação: Angular`
+
 TypeScript parte 1: Evoluindo seu Javascript (de 09/03/2020 a 10/03/2020) 8hrs
+
 TypeScript parte 2: Mais técnicas e boas práticas (de 10/03/2020 a 11/03/2020) 10hrs
+
 Angular parte 1: Fundamentos (de 09/03/2020 a 14/03/2020) 16hrs
+
 Angular parte 2: Autenticação, Forms e lazy loading (de 12/03/2020 a 15/03/2020) 12hrs
+
 Angular parte 3: upload, build e novos componentes (de 15/03/2020 a 15/03/2020) 12hrs
+
 Angular parte 4: lapidando o projeto (de 16/03/2020 a 16/03/2020) 10hrs
 
+
 `Formação: HTML e CSS`
+
 JavaScript: Programando na linguagem da web (de 12/02/2020 a 19/02/2020) 20hrs
+
 HTTP: Entendendo a web por baixo dos panos (de 21/01/2020 a 04/02/2020) 14hrs
+
 HTML5 e CSS3 parte 1: A primeira página da Web (de 10/02/2020 a 11/02/2020) 8hrs
+
 HTML5 e CSS3 parte 2: Posicionamento, listas e navegação (de 11/02/2020 a 12/02/2020) 8hrs`
 
+
 `Formação: Vue.js`
+
 JavaScript: Programando na linguagem da web (de 12/02/2020 a 19/02/2020) 20hrs
+
 
 `Formação: Front-end`
 JavaScript avançado I: ES6, orientação a objetos e padrões de projetos (de 19/02/2020 a 09/03/2020) 12hrs
+
 JavaScript: Programando na linguagem da web (de 12/02/2020 a 19/02/2020) 20hrs
+
 HTML5 e CSS3 parte 1: A primeira página da Web (de 10/02/2020 a 11/02/2020) 8hrs
+
 HTML5 e CSS3 parte 2: Posicionamento, listas e navegação (de 11/02/2020 a 12/02/2020) 8hrs
 
+
 `Formação: DevOps`
+
 Git e Github: Estratégias de ramificação, Conflitos e Pull Requests (de 26/03/2020 a 29/03/2020) 8hrs
 
+
+
+
 `Front-end`
+
 Jasmine: Testes automatizados em JavaScript (de 17/03/2020 a 17/03/2020) 12hrs
 
 
+
+
+
 ## Development server To do List
+
 
 `Servidor Angular` 
 No prompt execute o comando `npm install` para instalar o projeto. 
@@ -60,6 +93,7 @@ No prompt execute o comando `npm install -g json-server` para instalar o servido
 Apos Execute o comando  `json-server --watch db.json` para subir o servidor json na porta `http://localhost:3000` 
 
 Os 2 servidores devem estar no ar ao mesmo tempo para um perfeito funcionamento. 
+
 
 # *****************************************************************
 
