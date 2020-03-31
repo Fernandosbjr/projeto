@@ -1,0 +1,85 @@
+<br>
+
+<div class="login" >
+  <po-login 
+    name="login"
+    p-label="Login">
+  </po-login>
+
+  <po-password
+    name="userPassword"
+    p-clean
+    p-label="Password"
+    p-placeholder="Enter your password"
+    p-required>
+  </po-password>
+  <po-button p-label="Logar" (p-click)="onClick()"></po-button>
+  
+  <po-button p-label="Dominio" (p-click)="openModal() ">  </po-button>
+
+  <div class="po-text-center">    
+
+    <po-modal
+      p-hide-close="true"
+      p-size="auto"
+      p-title="Confirm your identity"
+      [p-primary-action]="primaryAction">
+
+      <po-login
+        name="userLogin"
+        [(ngModel)]="userLogin"    
+        p-clean
+        p-label="User"
+        p-maxlength="40"
+        p-placeholder="domain\user"
+        p-required>
+      </po-login>
+      
+      <po-password
+        name="userPassword"
+        [(ngModel)]="userPassword"
+        p-clean
+        p-label="Password"
+        p-placeholder="Enter your password"
+        p-required>
+      </po-password>
+    </po-modal>
+  </div>
+  
+  <br><br><br><br>
+
+  <po-container
+  p-height="number"
+  p-no-border="boolean"
+  p-no-padding="boolean"
+  p-no-shadow="boolean" >
+
+  <form #f="ngForm">
+    <div class="po-row">
+      <po-email
+        class="po-lg-12"
+        name="email"
+        [(ngModel)]="email"
+        p-clean
+        p-error-pattern="Invalid e-mail"
+        p-label="Esqueceu sua senha?"
+        p-placeholder="Enter your e-mail"
+        p-required>
+      </po-email>
+    </div>
+  
+    <div class="po-row">
+      <po-button
+        class="po-md-4"
+        p-label="Send"
+        p-type="primary"
+        [p-disabled]="f.form.invalid"
+        (p-click)="openDialog()">
+      </po-button>
+    </div>
+  </form>
+
+</po-container>
+
+
+</div>

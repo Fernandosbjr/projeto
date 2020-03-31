@@ -8,42 +8,42 @@ Certificados :
 https://cursos.alura.com.br/user/fernando-junior0/fullCertificate/02fef27296edda73a1d8ac94e503e48b
 
 
- `Forma√ß√£o: Iniciante em Programa√ß√£o`
+ `FormaÁ„o: Iniciante em ProgramaÁ„o`
 JavaScript: Programando na linguagem da web (de 12/02/2020 a 19/02/2020) 20hrs
-HTML5 e CSS3 parte 1: A primeira p√°gina da Web (de 10/02/2020 a 11/02/2020) 8hrs
-HTML5 e CSS3 parte 2: Posicionamento, listas e navega√ß√£o (de 11/02/2020 a 12/02/2020) 8hrs
+HTML5 e CSS3 parte 1: A primeira p·gina da Web (de 10/02/2020 a 11/02/2020) 8hrs
+HTML5 e CSS3 parte 2: Posicionamento, listas e navegaÁ„o (de 11/02/2020 a 12/02/2020) 8hrs
 
- `Forma√ß√£o: Node.JS`
+ `FormaÁ„o: Node.JS`
 HTTP: Entendendo a web por baixo dos panos (de 21/01/2020 a 04/02/2020) 14hrs
 
- `Forma√ß√£o: React JS`
-JavaScript avan√ßado I: ES6, orienta√ß√£o a objetos e padr√µes de projetos (de 19/02/2020 a 09/03/2020) 12hrs
+ `FormaÁ„o: React JS`
+JavaScript avanÁado I: ES6, orientaÁ„o a objetos e padrıes de projetos (de 19/02/2020 a 09/03/2020) 12hrs
 
-`Forma√ß√£o: Angular`
+`FormaÁ„o: Angular`
 TypeScript parte 1: Evoluindo seu Javascript (de 09/03/2020 a 10/03/2020) 8hrs
-TypeScript parte 2: Mais t√©cnicas e boas pr√°ticas (de 10/03/2020 a 11/03/2020) 10hrs
+TypeScript parte 2: Mais tÈcnicas e boas pr·ticas (de 10/03/2020 a 11/03/2020) 10hrs
 Angular parte 1: Fundamentos (de 09/03/2020 a 14/03/2020) 16hrs
-Angular parte 2: Autentica√ß√£o, Forms e lazy loading (de 12/03/2020 a 15/03/2020) 12hrs
+Angular parte 2: AutenticaÁ„o, Forms e lazy loading (de 12/03/2020 a 15/03/2020) 12hrs
 Angular parte 3: upload, build e novos componentes (de 15/03/2020 a 15/03/2020) 12hrs
 Angular parte 4: lapidando o projeto (de 16/03/2020 a 16/03/2020) 10hrs
 
-`Forma√ß√£o: HTML e CSS`
+`FormaÁ„o: HTML e CSS`
 JavaScript: Programando na linguagem da web (de 12/02/2020 a 19/02/2020) 20hrs
 HTTP: Entendendo a web por baixo dos panos (de 21/01/2020 a 04/02/2020) 14hrs
-HTML5 e CSS3 parte 1: A primeira p√°gina da Web (de 10/02/2020 a 11/02/2020) 8hrs
-HTML5 e CSS3 parte 2: Posicionamento, listas e navega√ß√£o (de 11/02/2020 a 12/02/2020) 8hrs`
+HTML5 e CSS3 parte 1: A primeira p·gina da Web (de 10/02/2020 a 11/02/2020) 8hrs
+HTML5 e CSS3 parte 2: Posicionamento, listas e navegaÁ„o (de 11/02/2020 a 12/02/2020) 8hrs`
 
-`Forma√ß√£o: Vue.js`
+`FormaÁ„o: Vue.js`
 JavaScript: Programando na linguagem da web (de 12/02/2020 a 19/02/2020) 20hrs
 
-`Forma√ß√£o: Front-end`
-JavaScript avan√ßado I: ES6, orienta√ß√£o a objetos e padr√µes de projetos (de 19/02/2020 a 09/03/2020) 12hrs
+`FormaÁ„o: Front-end`
+JavaScript avanÁado I: ES6, orientaÁ„o a objetos e padrıes de projetos (de 19/02/2020 a 09/03/2020) 12hrs
 JavaScript: Programando na linguagem da web (de 12/02/2020 a 19/02/2020) 20hrs
-HTML5 e CSS3 parte 1: A primeira p√°gina da Web (de 10/02/2020 a 11/02/2020) 8hrs
-HTML5 e CSS3 parte 2: Posicionamento, listas e navega√ß√£o (de 11/02/2020 a 12/02/2020) 8hrs
+HTML5 e CSS3 parte 1: A primeira p·gina da Web (de 10/02/2020 a 11/02/2020) 8hrs
+HTML5 e CSS3 parte 2: Posicionamento, listas e navegaÁ„o (de 11/02/2020 a 12/02/2020) 8hrs
 
-`Forma√ß√£o: DevOps`
-Git e Github: Estrat√©gias de ramifica√ß√£o, Conflitos e Pull Requests (de 26/03/2020 a 29/03/2020) 8hrs
+`FormaÁ„o: DevOps`
+Git e Github: EstratÈgias de ramificaÁ„o, Conflitos e Pull Requests (de 26/03/2020 a 29/03/2020) 8hrs
 
 `Front-end`
 Jasmine: Testes automatizados em JavaScript (de 17/03/2020 a 17/03/2020) 12hrs

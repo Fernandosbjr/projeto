@@ -1,0 +1,64 @@
+{
+  "login": [
+    {
+      "id": 1,
+      "login": "Fernando",
+      "senha": "123"
+    }
+  ],
+  "tarefa": [
+    {
+      "id": 1,
+      "tarefa": "Criar Botao",
+      "analista": "Fernando",
+      "dataini": "20/03/2020",
+      "datafin": "23/03/2020",
+      "etapa": "Done",
+      "texto": "Criar um botao que envie para o jason."
+    },
+    {
+      "id": 2,
+      "tarefa": "Criar Grafico",
+      "analista": "Valter",
+      "dataini": "20/03/2020",
+      "datafin": "23/03/2020",
+      "etapa": "To Do",
+      "texto": "Criar a tela com a somatoria das etapas do To-Do List."
+    },
+    {
+      "id": 3,
+      "tarefa": "Criar Login",
+      "analista": "Pedro",
+      "dataini": "20/03/2020",
+      "datafin": "23/03/2020",
+      "etapa": "Testing",
+      "texto": "Criar a tela de login com a senha oculta."
+    }
+    ,
+    {
+      "id": 4,
+      "tarefa": "Criar Banco",
+      "analista": "Pedro",
+      "dataini": "20/03/2020",
+      "datafin": "23/03/2020",
+      "etapa": "Testing",
+      "texto": "Criar um banco de dados para almazenar as tarefas"
+    }
+  ],
+  "grafico": [
+    {
+      "id": 1,
+      "todo": "1000",
+      "development": "20",
+      "codereview": "30",
+      "testing": "20",
+      "Done": "20",
+      "result1": [10,20,30,20,20],
+      "result2":[ "category: 'To Do', value: 20",
+                 "category: 'Development', value: 30",
+                 "category: 'Code Review', value: 10",
+                 "category: 'Testing', value: 20",
+                 "category: 'Done', value: 20"]
+    }
+   ]
+}

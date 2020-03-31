@@ -1,0 +1,163 @@
+<br>
+
+
+<div class="todolist">
+<!-- 
+  <tr *ngFor="let TodolistInterface of TodolistInterface">
+
+    <td>{{ TodolistInterface.id }}</td>
+    <td>{{ TodolistInterface.tarefa }}</td>   
+    <td>{{ TodolistInterface.analista }}</td>  
+    <td>{{ TodolistInterface.dataini }}</td>  
+    <td>{{ TodolistInterface.datafim }}</td>  
+    <td>{{ TodolistInterface.etapa }}</td>  
+    <td>{{ TodolistInterface.texto }}</td>  
+       
+  </tr>
+-->
+
+  <!-- Form -->
+
+    <div class="Form">
+      <po-input
+        class="po-md-12"
+        p-clean
+        p-icon="po-icon po-icon-minus"
+        p-label="Tarefa">
+      </po-input>
+
+    <div class="Form">
+      <po-input
+        class="po-md-12"
+        p-clean
+        p-icon="po-icon po-icon-user"
+        p-label="Analista">
+    </po-input>
+
+    <po-datepicker
+        class="po-md-6"
+        name="Dateini"
+        [(ngModel)]="Dateini"
+        p-clean
+        p-label="Date Inicial"
+        [p-max-date]="Dateini">
+    </po-datepicker>
+
+    <po-datepicker
+      class="po-md-6"
+      name="Datefim"
+      [(ngModel)]="Datefim"
+      p-clean
+      p-label="Date Final"
+      [p-max-date]="Date">
+    </po-datepicker>
+
+    <po-select
+      class="po-lg-6"
+      name="icon"
+      [(ngModel)]="icon"
+      p-clean
+      p-label="Icon"
+      [p-options]="iconOptions">
+    </po-select>
+
+    <div class="po-row">
+      <po-textarea
+        class="po-sm-12"
+        name="texto"
+        [(ngModel)]="texto"
+        p-help="Issue"
+        p-label="Texto">
+      </po-textarea>
+
+      <div class="po-row">
+        <po-button
+          class="po-md-3"
+          p-label="Add Item"
+          (p-click)="addItem()">
+        </po-button>
+        <br><br><br>
+      </div>
+
+  </div>
+
+  <po-container
+    p-height = 500,
+    p-no-border = true;
+    p-no-padding = true;
+    p-no-shadow = true >
+
+      <!-- inclui na Grid-->
+      <po-list-view
+        [p-actions]="actions"
+        [p-height]="height"
+        [p-hide-select-all]="properties.includes('hideSelectAll')"
+        [p-items]="TodolistInterface"
+        [p-literals]="customLiterals"
+        [p-property-link]="propertyLink"
+        [p-property-title]="propertyTitle"
+        [p-select]="properties.includes('select')"
+        [p-show-more-disabled]="properties.includes('showMoreDisabled')"
+        (p-show-more)="showMore()"
+        (p-title-action)="changeAction('p-title-action')">
+        <!-- showMore -->
+        <ng-template p-list-view-content-template let-item>
+          <div class="po-row">
+
+            <po-info
+              class="po-md-6 po-lg-3"
+              p-label="Issue"
+              [p-value]="item.id">
+          </po-info>
+
+            <po-info
+              class="po-md-6 po-lg-3"
+              p-label="Tarefa"
+              [p-value]="item.tarefa">
+            </po-info>
+      
+            <po-info
+              class="po-md-6 po-lg-3"
+              p-label="Analista"
+              [p-value]="item.analista">
+            </po-info>
+      
+            <po-info
+              class="po-md-6 po-lg-3"
+              p-label="Data Inicial"
+              [p-value]="item.dataini">
+            </po-info>
+      
+            <po-info
+              class="po-md-6 po-lg-3"
+              p-label="Data Final"
+              [p-value]="item.datafin">
+            </po-info>
+      
+            <po-info
+              class="po-md-6 po-lg-3"
+              p-label="Etapa"
+              [p-value]="item.etapa">
+            </po-info>
+      
+            <po-info
+              class="po-md-6 po-lg-3"
+              p-label="Texto"
+              [p-value]="item.texto">
+          </po-info>
+
+          <po-checkbox
+            name="Altera"
+            p-label="Alterar">
+          </po-checkbox>
+          
+          <po-checkbox
+            name="Excluir"
+            p-label="Excluir">
+          </po-checkbox>
+      
+          </div>
+        </ng-template>
+      </po-list-view>
+</po-container>
+</div>

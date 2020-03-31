@@ -1,0 +1,19 @@
+<div class="todolist">
+    <po-menu-panel [p-menus]="[
+    { label: 'Login', link: '/login', icon: 'po-icon po-icon-user' },
+    { label: 'Todolist', link: '/todolist', icon: 'po-icon po-icon-document' },
+    { label: 'Grafico', link: '/grafico', icon: 'po-icon po-icon-chart-columns' }
+    ]">
+  </po-menu-panel>
+  
+  <router-outlet></router-outlet>
+</div>
+
+<!--
+
+Não consigo posicionar apenas na primeira pagina
+  <div class="img" po-text-center>
+    <img [src]="url" [alt]="title">
+  </div>  
+
+-->
